@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <title>Comentarios</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" lang="es-sv">
+        <script src="javascript/jquery-2.1.4.js"></script>
+        <script src="javascript/nav_bar.js"></script>
+        <script src="mui-0.1.2/js/mui.min.js"></script>
+        <script src="javascript/cabecera.js"></script>
+        <script src="javascript/commments.js"></script>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="mui-0.1.2/css/mui.min.css">
+        <link rel="stylesheet" href="styles/comments.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <nav>
+            <button id="nav-menu"><img src="icons/navigation/2x_web/ic_menu_white_48dp.png"></button>
+            <menu class="principal">
+                <li class="item-principal"><a href="index.html" id="cabecera"><img src="icons/action/2x_web/ic_home_white_48dp.png">Inicio</a></li>
+                <li class="item-principal"><a href="news.html" id="cabecera"><img src="icons/action/2x_web/ic_event_white_48dp.png">Eventos</a></li>
+                <li class="item-principal" tabindex="0"><a href="#" id="cabecera"><img src="icons/social/2x_web/ic_group_white_48dp.png">Grupos</a>
+                    <ul class="secundario">
+                        <a href="group1.html"><li>Cristo Joven</li></a>
+                        <a href="group2.html"><li>Comunidad Fenech</li></a>
+                        <a href="group3.html"><li>Juventud Carismática</li></a>
+                        <a href="group4.html"><li>Juventud Conyogal</li></a>
+                        <a href="group5.html"><li>Jufra</li></a>
+                    </ul>
+                </li>
+                <li class="item-principal"><a href="gallery.html" id="cabecera"><img src="icons/image/2x_web/ic_slideshow_white_48dp.png">Galeria</a></li>
+                <li class="item-principal"><a href="comments.html" id="cabecera"><img src="icons/communication/2x_web/ic_chat_white_48dp.png">Comentarios</a></li>
+                <li class="item-principal"><a href="contact.html" id="cabecera"><img src="icons/communication/2x_web/ic_call_white_48dp.png">Contacto</a></li>
+            </menu>
+        </nav>
+        <header>
+        	<h1>Comentarios</h1>
+        </header>
+        <button class="mui-button"><img src="icons/content/2x_web/ic_add_white_48dp.png"></button>
+        <div class="mainwrapper" title="Agregar Comentario">
+            <form action="#" class="mui-panel">
+                <legend>Comentario</legend>
+                <div class="mui-form-group">
+                    <input class="mui-form-control" type="text" id="titulo" placeholder="Título" required>
+                    <input class="mui-form-control" type="url" id="url" placeholder="URL de Imagen">
+                    <textarea class="mui-form-control" id="text" placeholder="Texto" rows="5" required></textarea><br>
+                    <input class="mui-form-control" type="text" id="autor" placeholder="Autor">
+                </div>
+                <button id="submit" class="mui-btn mui-btn-default mui-btn-raised">Agregar Comentario</button>
+            </form>
+        </div>
+        <section>
+            <div id="base">
+                <img src="images/descarga.jpg" />
+                <h1 class="titulo_item">Ejemplo de Comentario</h1>
+                <p class="comentario">Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. </p>
+                <hr />
+                <span>Autor: </span><a href="#" class="autor_item">Parroquia Franciscana de Acajutla</a>
+            </div>
+        </section>
+        <footer>
+            <div id="links">
+                <h3>Otros Enlaces</h3>
+                <a href="https://www.facebook.com/pj.acajutla?fref=ts&__mref=message_bubble"><img src="icons/Facebook.ico"> Facebook</a>
+                <a href="http://www.youtube.com/user/comunicacioncatolica"><img src="icons/Youtube.png"> YouTube</a>
+            </div>
+            <div id="description">
+                <h3>Descripcion</h3>
+                <p>Deje sus comentarios y sugerencias de como podemos mejorar y facilitar la interación de nuestros usuarios con nuestro sitio web.</p>
+            </div>
+        </footer>
+    </body>
+</html>

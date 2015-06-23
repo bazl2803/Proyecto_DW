@@ -1,0 +1,336 @@
+*{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+    font-family: roboto light,sans-serif;
+}
+/*Navigation Bar*/
+#nav-menu {
+    display: none;
+}
+menu{
+    width: 100%;
+    position:fixed;
+    background-color: darkviolet;
+}
+.item-principal{
+    border-left: 1px groove;
+	display: inline-block;
+	float: left;
+	line-height: 40px;
+    width: auto;
+    height:auto;
+    text-align:center;
+}
+.item-principal:hover{
+    background-color: mediumvioletred;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+}
+#cabecera{
+    list-style: none;
+	text-decoration:none;
+	color: white;
+    font-size: 1.5em;
+}
+#cabecera{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.item-principal img{
+    padding:5px;
+    width: 40px;
+    float:left;
+}
+.item-principal a:hover{
+    list-style: none;
+	text-decoration:none;
+    color: wheat;
+}
+.secundario li{
+	list-style:none;
+    padding-left: 10px;
+	padding-right: 10px;
+    color:gray;
+}
+.secundario{
+	position:absolute;
+	background-color: rgba(250, 250, 250,0.8);
+	display: none;
+	width: auto;
+}
+.secundario li:hover{
+    background-color: rgba(0,150,50,0.75);
+    color: white;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+}
+/*Header*/
+header{
+    margin-top:0px;
+    padding-top:0px;
+    background: url(../images/sunset_time-wide.jpg) fixed round;
+    padding: 150px 0px 150px 0px;
+    box-shadow: black 0px 0px 2px;
+}
+header h1{
+    font-size: 112px;
+    padding-left: 50px;
+    color: whitesmoke;
+    line-height: 1.1;
+    text-shadow: 0px 0px 5px black;
+}
+.mui-button{
+    border:0px;
+    width: 80px;
+    height: 80px;
+    bottom: 40px; 
+    margin-left:85%;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: gray 1px 1px 1px;
+    background-color: deeppink;
+}
+.mui-button img{
+    width:60px;
+}
+/* Material Cards*/
+.card{
+    width: 30%;
+    height: auto;
+    margin-left: 10px;
+    position: page;
+    border: 1px solid lightgray;
+    margin: 10px 0px 10px 30px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px lightgrey;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card h1{
+    color: orange;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 10px;
+    margin: auto;
+}
+ .card p {
+    padding: 10px 10px 0px 10px;
+    text-align: justify;
+ }
+ .card a{
+    padding:10px 10px 10px 10px;
+    margin: -10px 10px 10px 10px;
+    text-decoration:none;
+    display:inline-block;
+    color: deeppink;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+}
+.card a:hover {
+    background-color: #ffecfc;
+    color: deeppink;
+    text-decoration:none;
+}
+/*Footer*/
+footer{
+    background-color: whitesmoke;
+    width: 100%;
+    display: inline-block;
+    float: right;
+}
+#description{
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    float: right;
+}
+#links{
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    float: right;
+}
+#links a{
+    width:100%;
+    display: inline-block;
+}
+#links a img{
+    width:32px;
+    margin-right: 15px;
+}
+/* LOW-PHONE RESOTUTION*/
+@media screen and (max-width: 320px){
+    #nav-menu{
+        display: block;
+        border: 0;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    #nav-menu img{
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+    .item-principal{
+        width: 100%;
+        text-align: left;
+        background-color: #0089D1;
+        display:none;
+    }
+    .secundario{
+        position: relative;
+        display: none;
+        width: 100%;
+        background-color: snow;
+    }
+    header h1{
+        padding-left: 10px;
+        font-size: 2.5em;
+    }
+    header{
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    .card{
+        width:90%;
+        display:inline-block;
+        margin: 10px 0px 10px 5%;
+        padding: 0px 0px 0px 0px;
+    }
+    .mui-button {
+        width:35px;
+        height:35px;
+        bottom:17.5px;
+    }
+    .mui-button img{
+        width:20px;
+    }
+    #links a img{
+        width:1.5em;
+    }
+}
+/* REGULAR-PHONE RESOLUTION*/
+@media screen and (min-width: 321px) and (max-width: 768px){
+    .item-principal{
+        width: 100%;
+        text-align: left;
+        background-color: royalblue;
+        list-style:none;
+        display: none;
+    }
+    #nav-menu{
+        display: block;
+        border: 0;
+        width: 100%;
+        background-color: blueviolet;
+    }
+    #nav-menu img{
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+    .secundario{
+        position: relative;
+        display: none;
+        width: 100%;
+        background-color: snow;
+    }
+    .item-principal:hover{
+        background-color: royalblue;
+    }
+    header h1{
+        padding-left: 10px;
+        font-size: 2.5em;
+    }
+    .card{
+        width:90%;
+        display:inline-block;
+        margin: 10px 0px 10px 5%;
+        padding: 0px 0px 0px 0px;
+    }
+    .mui-button{
+        border-radius: 50%;
+        background-color: deeppink;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: 30px; 
+        margin-left:75%;
+        box-shadow: black 0px 0.5px 5px;
+        border:0px;
+    }
+    .mui-button img{
+        width:40px;
+    }
+}
+/* TABLET RESOLUTION*/
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .item-principal{
+        border-left:0px;
+        width: 16.66666666666667%;
+        background-color:rebeccapurple;
+    }
+    .item-principal a{
+        font-size:0.9em;
+        padding: 0 0 0 0;
+        text-align:center;
+    }
+    .secundario a{
+        width:100%;
+        font-size:0.9em;
+        display:inline-block;
+    }
+    #cabezera{
+	    padding-left: 5px;
+	    padding-right: 5px;
+    }
+    .item-principal img{
+       display: none;
+    }
+    .item-principal:hover{
+	    background-color: rgba(143, 35, 35, 0.78);
+        transition:cubic-bezier(0.25,0.5,0.25,0.5)0.5s;
+    }
+    .secundario li{
+	    list-style:none;
+        padding-left: 5px;
+	    padding-right: 5px;
+        color:gray;
+    }
+    .secundario li:hover{
+	    background-color: rgba(0,150,50,0.75);
+        color: white;
+        transition:cubic-bezier(0.25,0.5,0.25,0.5)0.5s;
+    }
+    .secundario{
+	    position:absolute;
+        margin-top:0px;
+	    background-color: rgba(250, 250, 250, 0.75);
+	    width: 16.66666666666667%;
+    }
+    header{
+        background: none;
+        background-color: blueviolet;
+        padding: 200px 0px 200px 0px;
+        color: white;
+    }
+    header h1{
+        font-size: 50px;
+        padding-left: 50px;
+    }
+    .card{
+        width: 40%;
+        left: 0%;
+        margin: 10px 0px 10px 5%;
+        padding: 0px 0px 0px 0px;
+    }
+}

@@ -1,0 +1,135 @@
+header{
+    background: url(../images/desktop.jpg) fixed;
+}
+/* Form */
+form{
+    padding: 10px 10px 10px 10px;
+	text-align: right;
+    margin-left: 1%;
+    width: 98%;
+}
+
+/* Comments */
+.card-comment{
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid lightgray;
+    position: page;
+    display: inline-block;
+    box-shadow: 0px 0px 5px lightgrey;
+}
+.card-comment img{
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+.card-comment h1{
+    color: orange;
+    font-size: 24px;
+    padding-left: 10px;
+    margin: auto;
+    display: inline-block;
+}
+ .card-comment p {
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+ }
+ .card-comment a{
+    padding: 10px 10px 10px 10px;
+    text-decoration:none;
+    display:inline-block;
+    color: deeppink;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
+}
+.card-comment a:hover {
+    background-color: #ffecfc;
+    text-decoration:none;
+    color: deeppink;
+}
+.card-comment span {
+    margin-left: 10px;
+}
+/*Base Card*/
+#base{
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    margin-top:10px;
+    margin-bottom:10px;
+    position: page;
+    border: 1px solid lightgray;
+    display: inline-block;
+    box-shadow: 0px 0px 5px lightgrey;
+}
+#base img{
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+#base h1{
+    color: orange;
+    font-size: 24px;
+    padding-left: 10px;
+    margin: auto;
+    display: inline-block;
+}
+#base p {
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+ }
+#base a{
+    padding: 10px 10px 10px 10px;
+    text-decoration:none;
+    display:inline-block;
+    color: deeppink;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
+}
+#base a:hover {
+    background-color: #ffecfc;
+    text-decoration:none;
+    color: deeppink;
+}
+#base span {
+    margin-left: 10px;
+}
+@media screen and (min-width: 320px) and (max-width:768px){
+    .card-comment{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .card-comment img{
+        width: 100%;
+    }
+     .card-comment a{
+        padding:10px 10px 10px 10px;
+        margin: -10px 10px 10px 10px;
+    }
+    #base{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #base img{
+        width: 100%;
+    }
+     #base a{
+        padding:10px 10px 10px 10px;
+        margin: -10px 10px 10px 10px;
+    }
+    .mainwrapper{
+        width: 90%;
+        margin-left: 5%;
+    }
+}

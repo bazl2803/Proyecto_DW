@@ -1,0 +1,48 @@
+.card-contact{
+    width: 48%;
+    height: auto;
+    margin-left: 1%;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid lightgray;
+    position: page;
+    display: inline-block;
+    box-shadow: 0px 0px 5px lightgrey;
+}
+.card-contact img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    float: left;
+}
+.card-contact h1{
+    color: orange;
+    font-size: 24px;
+    padding-left: 10px;
+    margin: auto;
+    display: inline-block;
+}
+ .card-contact p {
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+ }
+ .card-contact a{
+    padding: 10px 10px 10px 10px;
+    text-decoration:none;
+    display:inline-block;
+    color: deeppink;
+    display: block;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
+}
+.card-contact a:hover {
+    background-color: #ffecfc;
+    text-decoration:none;
+    color: deeppink;
+}
+.card-contact span {
+    margin-left: 10px;
+}
